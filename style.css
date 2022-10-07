@@ -437,6 +437,16 @@ h5{
 
 /* About Section */
 
+#pfp{
+	transition: all 0.5s linear;
+	filter: grayscale(85%);
+
+}
+
+#pfp:hover {
+	filter: grayscale(0%);
+}
+
 .about{
 	width: 100%;
 	padding: 100px 0px;
